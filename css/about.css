@@ -1,0 +1,59 @@
+/*
+Для заголовков
+font-family: 'Arimo',
+sans-serif;
+
+Для менюшек
+font-family: 'IBM Plex Sans',
+sans-serif;
+
+Для текста
+font-family: 'Source Sans Pro',
+sans-serif;
+
+*/
+
+
+
+
+.about__block{
+    background-color: gainsboro;
+    padding: 20px 10px 10px 10px;
+}
+.point{
+    width: 8px;
+    height: 8px;
+    background: gold;
+    border-radius: 4px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.about__block__title{
+    display: flex;
+    align-items: center;
+}
+.about__block__name{
+    font-size: 26px;
+    font-family: 'Arimo',
+    sans-serif;
+    color: red;
+    font-weight: 700;
+}
+
+.about__block__text{
+    font-size: 20px;
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 320px){
+    .about__block__name{
+        font-size: 20px;
+    }
+    .about__block__text{
+        font-size: 14px;
+    }
+}

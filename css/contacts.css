@@ -1,0 +1,74 @@
+/*
+Для заголовков
+font-family: 'Arimo',
+sans-serif;
+
+Для менюшек
+font-family: 'IBM Plex Sans',
+sans-serif;
+
+Для текста
+font-family: 'Source Sans Pro',
+sans-serif;
+
+*/
+
+.contacts-back{
+    background-color: gainsboro;
+}
+
+.contacts__block{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.contacts__block__item{
+    width: 33.33333%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__block__title{
+    font-size: 26px;
+    font-family: 'Arimo',
+    sans-serif;
+    color: #ff2626;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contacts__block__content{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro',
+    sans-serif;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .contacts__block{
+        padding: 20px 0;
+    }
+    .contacts__block__item{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .third__block__item{
+        padding-bottom: 0;
+    }
+    
+}
+
+@media (max-width: 240px){
+    .contacts__block__title{
+        font-size: 22px;
+    }
+    .contacts__block__content{
+        font-size: 17px;
+    }
+}
